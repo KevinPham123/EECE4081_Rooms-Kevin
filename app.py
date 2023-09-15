@@ -20,17 +20,6 @@ class Rooms(db.Model):
     number = db.Column(db.Integer, nullable = False)
     capacity = db.Column(db.Integer, nullable = False)
     
-#################################################################
-# Create basic CRUD API                                         #
-#                                                               #
-# Create - will add new broken laptop to inventory              #
-# Read - will list all the existing broken laptops in inventory #
-# Update - will modify the attributes of a broken laptop        #
-# Delete - will delete a single entry of a broken laptop        #
-#################################################################
-
-
-
 @app.route('/about')
 def about():
     return render_template("aboutMe.html")
