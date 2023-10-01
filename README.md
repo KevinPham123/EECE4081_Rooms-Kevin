@@ -29,3 +29,5 @@ We followed scrum methodology with 2 weeks sprints and used Trello for tracking 
 
 
 Techstack: Python, Flask, SQLAlchemy, HTML, CSS
+
+`Note this is a refactor of an old project: https://github.com/ahmed217/EECE4081_Rooms/tree/Kevin`
